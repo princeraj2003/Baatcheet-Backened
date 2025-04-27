@@ -37,7 +37,7 @@ app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 // CORS Configuration
 const corsOptions = {
-  origin: ["https://baatcheet-frontened.vercel.app/"], // Front-end URL
+  origin: ["https://baatcheet-frontened.vercel.app"], // Front-end URL
   methods: ["GET", "POST", "PUT", "DELETE","PATCH"],
   credentials: true, // Allow cookies
   allowedHeaders: ['Content-Type', 'Authorization']
